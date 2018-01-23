@@ -1,3 +1,8 @@
+<head>
+<title>Model Management</title>
+</head>
+
+
 # Azure Machine Learning Model Management
 
 ## Introduction
