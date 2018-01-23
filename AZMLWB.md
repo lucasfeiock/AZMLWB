@@ -14,7 +14,6 @@
 - Azure Free Trial Subscription
 - Azure Machine Learning Workbench
 - Azure Command Line Interface
-- Register model
 
 ## Iris flower data set
 - Ronald Fisher - statistician and biologist, published paper in 1936
