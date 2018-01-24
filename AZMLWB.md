@@ -7,30 +7,29 @@
 
 ## Introduction
 - Iris flower data set
-- Machine Learning Classification
+- Machine Learning Classification Model
 - Azure Machine Learning Model Management
 
 ## Prerequisites
 - Azure Free Trial Subscription
+    - If you have an Azure subscription already, you can skip this step.
+        - https://azure.microsoft.com/en-us/free
+- Azure Portal
+    - https://portal.azure.com/
 - Azure Machine Learning Workbench
-- Azure Command Line Interface
+    - Install Workbench on Windows 10
+        - https://aka.ms/azureml-wb-msi
+    - Install Workbench on macOS
+        - https://aka.ms/azureml-wb-dmg    
+- Model management command-line interface reference
+    - https://docs.microsoft.com/en-us/azure/machine-learning/preview/model-management-cli-reference
 
 ## Iris flower data set
-- Ronald Fisher - statistician and biologist, published paper in 1936
-- Measurements of each sample are length and width of the sepals and petals in centimetres
-- images showing the flower and measurements
-- Multivariate data set (two or more variables)
-- Classify which of the three species of Iris is being measured using data
+- https://en.wikipedia.org/wiki/Iris_flower_data_set
+
+Ronald Fisher was a statistician and biologist who published the data set in a paper in 1936. The data was collected by Edgar Anderson who worked with Fisher at John Innes Horticultural Institute in Britain. Four features measured from each sample: the length and width of the sepals and petals, in centimetres. The data set is multivariate or having more than two variables. There is one feature that contains the type of species the sample is associated with, and used for classification.
 
 ## Machine Learning Classification 
-- Exploratory Data Analysis
-    - 50 samples of three species of Iris 
-        - Iris setosa
-        - Iris virginica
-        - Iris versicolor
-    - Row counts
-    - Type counts 
-    - Scatter plot
 - Logistic Regression 
     - sklearn.linear_model.LogisticRegression.html
 
